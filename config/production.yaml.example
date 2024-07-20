@@ -7,6 +7,7 @@ webserver:
   https: true
   hostname: 'example.com'
   port: 443
+  behind_proxy: true
 
 # Secrets you need to generate the first time you run PeerTube
 secrets:
